@@ -57,7 +57,7 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 
 - Sany (ours) - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
 - nuScenes - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
-- SemanticKITTI - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
+- SemanticKITTI - [Baidu Drive(access code: qaos)](https://pan.baidu.com/s/1LL2LItLEQpOt4HLWodTpWQ?pwd=qaos)
 
 # Step3.Train & Validate
 
