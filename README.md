@@ -53,6 +53,11 @@ conda install pytorch-scatter -c pyg
 ```
 
 # Step2.Data Download and Preparation
+We have organized these three datasets. To evaluate/train point cloud, you will need to download the required datasets.
+
+- Sany (ours)
+- SemanticKITTI
+- nuScenes
 
 # Step3.Train & Validate
 
