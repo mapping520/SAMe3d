@@ -55,9 +55,9 @@ conda install pytorch-scatter -c pyg
 # Step2.Data Download and Preparation
 We have organized these three datasets. To evaluate/train point cloud, you will need to **download** the required datasets.
 
-- Sany (ours)
-- SemanticKITTI
-- nuScenes
+- Sany (ours) - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
+- SemanticKITTI - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
+- nuScenes - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
 
 # Step3.Train & Validate
 
