@@ -26,3 +26,16 @@ conda activate SAMe3d
 ```
 conda install pytorch torchvision torchaudio
 ```
+- numba, torchpack
+```
+conda install numba
+pip install torchpack
+```
+- open3d
+```
+pip install open3d
+```
+- spconv (for cuda version)
+```
+pip install spconv-cu113
+```
