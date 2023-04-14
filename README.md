@@ -64,7 +64,7 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 ├── ...
 └── path_to_data_shown_in_config/
     ├──sequences
-        ├── 00/           
+        ├── 00/ # 00-07,09-10 for training          
         │   ├── velodyne/	
         |   |	├── 000000.bin
         |   |	├── 000001.bin
