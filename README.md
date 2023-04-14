@@ -39,3 +39,15 @@ pip install open3d
 ```
 pip install spconv-cu113
 ```
+- torch_scatter
+```
+conda install pytorch-scatter -c pyg
+```
+- strictyaml
+```
+ pip install strictyaml
+```
+- nuscene-devkit
+```
+ pip install --no-dependencies nuscenes-devkit==1.1.1
+```
