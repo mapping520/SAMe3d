@@ -83,6 +83,23 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 			└── 02/ # for testing
 ```
 - nuScenes - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
+```
+./
+├── 
+├── ...
+└── data_path/
+    ├──nuscenes
+        ├── lidarseg/   
+        ├── maps/
+	├── samples/
+        │   └── LIDAR_TOP/	
+        |    	├── n008-2018-05-21-11-06-59-0400_LIDAR_TOP_1526915243547836.pcd.bin
+        |    	└── ...
+	├── v1.0-trainval/
+	├── nuscenes_infos_train.pkl/
+	├── nuscenes_infos_val.pkl/
+        └── nuscenes_infos_test.pkl/
+```
 - SemanticKITTI - [Baidu Drive](https://pan.baidu.com/s/1LL2LItLEQpOt4HLWodTpWQ?pwd=qaos)(access code: qaos)
 ```
 ./
