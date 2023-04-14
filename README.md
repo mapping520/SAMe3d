@@ -9,3 +9,16 @@ This repo contains the source code and dataset for our paper:
 
 
 # Step1.Environment Installation
+our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.4, python3.7(in anaconda environment).
+note: we didn't testing in other configuration.
+
+## Requirements
+- Create a virtual environment and activate it.(optional)
+```
+conda create -n SAMe3d python=3.7
+conda activate SAMe3d
+```
+- PyTorch >= 1.2(optional)
+```
+conda install pytorch torchvision torchaudio
+```
