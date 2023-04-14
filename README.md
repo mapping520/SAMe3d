@@ -6,3 +6,6 @@ This repo contains the source code and dataset for our paper:
 <br>
 [paper](https://github.com/mapping520/SAMe3d/)
 ![SAMe3d](/Figs/Backbone_work.Png)
+
+
+# Step1.Environment Installation
