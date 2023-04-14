@@ -56,6 +56,32 @@ conda install pytorch-scatter -c pyg
 We have organized these three datasets. To evaluate/train point cloud, you will need to **download** the required datasets.
 
 - Sany (ours) - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
+```
+./
+├── 
+├── ...
+└── data_path/
+    ├──sany
+        ├── Mixing_station(MS)/ # Mixing station scene.       
+        │   	└── sequences/
+	│		├── 00/ # for training          
+	│		│   ├── velodyne/	
+	│		|   |	├── xxx.bin
+	│		|   |	├── xxx.bin
+	│		|   |	└── ...
+	│		│   └── labels/ 
+	│		|       ├── xxx.label
+	│		|       ├── xxx.label
+	│		|       └── ...
+	│		├── 01/ # for validation
+	│		└── 02/ # for testing
+        └── points(PG)/ # Proving ground scene.
+	   	└── sequences/
+			├── 00/ # for training          
+			|   └── ...
+			├── 01/ # for validation
+			└── 02/ # for testing
+```
 - nuScenes - [Baidu Drive](https://github.com/mapping520/SAMe3d/)
 - SemanticKITTI - [Baidu Drive](https://pan.baidu.com/s/1LL2LItLEQpOt4HLWodTpWQ?pwd=qaos)(access code: qaos)
 ```
