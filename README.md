@@ -13,6 +13,7 @@ our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.4, python3.7(in
 note: we didn't testing in other configuration.
 
 ## Requirements
+**completed**
 <br>
 Ensure that the installation of the GPU driver(cuda,cudnn) is**completed**before the belows.
 <br>
