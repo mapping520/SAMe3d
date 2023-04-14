@@ -14,7 +14,7 @@ note: we didn't testing in other configuration.
 
 ## Requirements
 <br>
-Ensure that the installation of the GPU driver(cuda,cudnn) is **completed** before the belows.
+Ensure that the installation of the GPU driver(cuda,cudnn) is *completed* before the belows.
 <br>
 
 - Create a virtual environment and activate it.(optional)
