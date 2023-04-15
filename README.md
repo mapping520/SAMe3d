@@ -127,6 +127,7 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 ```
 
 # Step3.Train & Validate
+note: In you virtual env(e.g. SAMe3d) establied from above Step1 to run the belows.
 
 - To train on **Sany-Mixing Station dataset**, run
 ```
