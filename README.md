@@ -49,7 +49,7 @@ conda install pytorch-scatter -c pyg
 ```
 - nuscene-devkit
 ```
- pip install --no-dependencies nuscenes-devkit==1.1.1
+ pip install -i --no-dependencies nuscenes-devkit==1.1.1
 ```
 
 # Step2.Data Download and Preparation
@@ -128,17 +128,21 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 
 # Step3.Train & Validate
 
-- To train on Sany dataset, run
+- To train on Sany-Mixing Station dataset, run
 ```
- python train.py -source scannet -target modelnet
+ python train.py --config_path config/sany_mixing_parameters.yaml --device 0
+```
+- To train on Sany-Proving ground dataset, run
+```
+ python train.py --config_path config/sany_points_parameters.yaml --device 0
 ```
 - To train on nuScenes dataset, run
 ```
- python train.py -source scannet -target modelnet
+ python train_nuscene.py --config_path config/nuScenes.yaml --device 0
 ```
 - To train on SemanticKITTI dataset, run
 ```
- python train.py -source scannet -target modelnet
+ python train.py --config_path config/parameters.yaml --device 0
 ```
 
 ## Acknowledgments
