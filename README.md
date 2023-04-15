@@ -9,8 +9,8 @@ This repo contains the source code and dataset for our paper:
 
 
 # Step1.Environment Installation
-our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.4, python3.7(in anaconda environment).
-note: we didn't testing in other configuration.
+Our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.4, python3.7(in anaconda environment).
+Note: we didn't testing in other configuration.
 
 ## Requirements
 
@@ -127,7 +127,8 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 ```
 
 # Step3.Train & Validate
-note: In you virtual env(e.g. SAMe3d) establied from above Step1 to run the belows.
+
+Note: In you virtual env(e.g. SAMe3d) establied from above Step1 to run the belows.
 
 - To train on **Sany-Mixing Station dataset**, run
 ```
