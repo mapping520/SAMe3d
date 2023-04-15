@@ -8,7 +8,7 @@ This repo contains the source code and dataset for our paper:
 ![SAMe3d](/Figs/Backbone_work.Png)
 
 
-# Step1.Environment Installation
+# **Step1.Environment Installation**
 Our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.4, python3.7(in anaconda environment).
 Note: we didn't testing in other configuration.
 
