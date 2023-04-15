@@ -128,19 +128,19 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 
 # Step3.Train & Validate
 
-- To train on Sany-Mixing Station dataset, run
+- To train on **Sany-Mixing Station dataset**, run
 ```
  python train.py --config_path config/sany_mixing_parameters.yaml --device 0
 ```
-- To train on Sany-Proving ground dataset, run
+- To train on **Sany-Proving ground dataset**, run
 ```
  python train.py --config_path config/sany_points_parameters.yaml --device 0
 ```
-- To train on nuScenes dataset, run
+- To train on **nuScenes dataset**, run
 ```
  python train_nuscene.py --config_path config/nuScenes.yaml --device 0
 ```
-- To train on SemanticKITTI dataset, run
+- To train on **SemanticKITTI dataset**, run
 ```
  python train.py --config_path config/parameters.yaml --device 0
 ```
