@@ -9,12 +9,12 @@ This repo contains the source code and dataset for our paper:
 
 
 # Step1.Environment Installation
-Our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cuda11.3, python3.7(in anaconda environment).
+Our paltform configuration: ubuntu18.04, Nvidia RTX 3090, cudatoolkit11.3, python3.7(in anaconda environment).
 Note: we didn't testing in other configuration.
 
 ## Requirements
 
-Ensure that the installation of the GPU driver(cuda,cudnn) is **completed** before the belows.
+Ensure that the installation of the GPU driver(cuda>=11.3, cudnn) is **completed** before the belows.
 
 
 - Create a virtual environment and activate it. (optional)
@@ -22,7 +22,7 @@ Ensure that the installation of the GPU driver(cuda,cudnn) is **completed** befo
 conda create -n SAMe3d python=3.7
 conda activate SAMe3d
 ```
-- Install cuda11.3 in SAMe3d env. (optional)
+- Install cudatoolkit11.3 in SAMe3d env. (optional)
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 ```
