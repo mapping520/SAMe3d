@@ -26,6 +26,7 @@ conda activate SAMe3d
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 ```
+![cuda](/Figs/cuda_test.png)
 - PyTorch >= 1.2 and cudatoolkit(optional)
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
