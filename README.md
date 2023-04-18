@@ -17,12 +17,12 @@ Note: we didn't testing in other configuration.
 Ensure that the installation of the GPU driver(cuda,cudnn) is **completed** before the belows.
 
 
-- Create a virtual environment and activate it.(optional)
+- Create a virtual environment and activate it. (optional)
 ```
 conda create -n SAMe3d python=3.7
 conda activate SAMe3d
 ```
-- Install cuda11.3 in SAMe3d env.(optional)
+- Install cuda11.3 in SAMe3d env. (optional)
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 ```
@@ -30,7 +30,7 @@ conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 <img src="/Figs/cuda_test.png" width="480" height="128" alt="cuda_test" position="center"/>
 </div>
 
-- PyTorch >= 1.2 and cudatoolkit(optional)
+- PyTorch >= 1.2 and cudatoolkit. (optional)
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
