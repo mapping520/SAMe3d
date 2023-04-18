@@ -17,7 +17,7 @@ Note: we didn't testing in other configuration.
 Ensure that the installation of the GPU driver(version>=11.3, cudnn) is **completed** before the belows.
 
 
-- Create a virtual environment and activate it. (optional)
+- Create a virtual environment and activate it.
 ```
 conda create -n SAMe3d python=3.7
 conda activate SAMe3d
@@ -26,7 +26,7 @@ conda activate SAMe3d
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 ```
-- PyTorch >= 1.2 and cudatoolkit (optional).
+- PyTorch >= 1.2 and cudatoolkit.
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 ```
