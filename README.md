@@ -40,6 +40,7 @@ pip install torchpack
 pip install open3d
 ```
 - [spconv](https://github.com/traveller59/spconv) (for cuda version)
+![spconv](/Figs/spconv_version.Png)
 ```
 pip install spconv-cu113
 ```
