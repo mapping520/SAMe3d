@@ -26,9 +26,8 @@ conda activate SAMe3d
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 ```
-test:
 <div align=center>
-<img src="/Figs/cuda_test.png" width="480" height="128" alt="cuda_test" position="center"/><br/>
+<img src="/Figs/cuda_test.png" width="480" height="128" alt="cuda_test" position="center"/>
 </div>
 
 - PyTorch >= 1.2 and cudatoolkit(optional)
