@@ -58,7 +58,7 @@ conda install pytorch-scatter -c pyg
 ```
 - [nuscene-devkit](https://github.com/nutonomy/nuscenes-devkit)
 ```
- pip install -i --no-dependencies nuscenes-devkit==1.1.1
+ pip install --no-dependencies nuscenes-devkit==1.1.1
 ```
 
 # Step2.Data Download and Preparation
