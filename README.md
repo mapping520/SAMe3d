@@ -14,7 +14,7 @@ Note: we didn't testing in other configuration.
 
 ## Requirements
 
-Ensure that the installation of the GPU driver(version>=11.3, cudnn) is **completed** before the belows.
+Ensure that the installation of the GPU driver(support cuda>=11.3, cudnn) is **completed** before the belows.
 
 
 - Create a virtual environment and activate it.
