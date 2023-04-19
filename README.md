@@ -32,7 +32,7 @@ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 </div>
 
 <div align=center>
-<img src="/Figs/pytorch_for_cuda.png" width="510" height="360" alt="pytorch" position="center"/>
+<img src="/Figs/pytorch_for_cuda.png" width="510" height="320" alt="pytorch" position="center"/>
 </div>
 
 - numba, torchpack
