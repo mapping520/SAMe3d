@@ -22,7 +22,7 @@ Ensure that the installation of the GPU driver(version>=11.3, cudnn) is **comple
 conda create -n SAMe3d python=3.7
 conda activate SAMe3d
 ```
-- Install cudatoolkit11.3 in SAMe3d env. (optional)
+- Install cudatoolkit(e.g. v11.3) in SAMe3d env. (optional)
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
 conda install cudatoolkit=11.3 -c pytorch
@@ -31,7 +31,7 @@ conda install cudatoolkit=11.3 -c pytorch
 <img src="/Figs/cuda_test.png" width="480" height="128" alt="cuda_test" position="center"/>
 </div>
 
-- PyTorch >= 1.2 and cudatoolkit.
+- PyTorch >= 1.2 (for cuda version).
 ```
 conda install pytorch torchvision torchaudio -c pytorch
 ```
