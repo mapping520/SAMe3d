@@ -25,15 +25,16 @@ conda activate SAMe3d
 - Install cudatoolkit11.3 in SAMe3d env. (optional)
 ```
 conda install cuda -c nvidia/label/cuda-11.3.0 -c nvidia/label/cuda-11.3.1 -y
-```
-- PyTorch >= 1.2 and cudatoolkit.
-```
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install cudatoolkit=11.3 -c pytorch
 ```
 <div align=center>
 <img src="/Figs/cuda_test.png" width="480" height="128" alt="cuda_test" position="center"/>
 </div>
 
+- PyTorch >= 1.2 and cudatoolkit.
+```
+conda install pytorch torchvision torchaudio -c pytorch
+```
 - numba, torchpack
 ```
 conda install numba
