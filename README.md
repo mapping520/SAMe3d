@@ -50,7 +50,7 @@ pip install open3d
 ```
 - [spconv](https://github.com/traveller59/spconv) (for cuda version)
 <div align=center>
-<img src="/Figs/spconv_version.png" width="600" height="380" alt="spconv" position="center"/>
+<img src="/Figs/spconv_version.png" width="600" height="360" alt="spconv" position="center"/>
 </div>
 
 ```
