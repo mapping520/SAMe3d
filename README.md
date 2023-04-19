@@ -33,9 +33,8 @@ conda install cudatoolkit=11.3 -c pytorch
 
 - PyTorch >= 1.2 (for cuda version).
 <div align=center>
-<img src="/Figs/pytorch_for_cuda.png" width="420" height="260" alt="pytorch" position="center"/>
+<img src="/Figs/pytorch_for_cuda.png" width="680" height="460" alt="pytorch" position="center"/>
 </div>
-![pytorch](/Figs/pytorch_for_cuda.png)
 
 ```
 conda install pytorch torchvision torchaudio -c pytorch
