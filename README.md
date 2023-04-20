@@ -142,6 +142,8 @@ We have organized these three datasets. To evaluate/train point cloud, you will 
 # Step3.Train & Validate
 
 Note: In you virtual env(e.g. SAMe3d) establied from above Step1 to run the belows.
+## Pretrained Models
+-- We provide a pretrained model [LINK](https://pan.baidu.com/s/15_1Z8cfxTB6reRiA05bG8Q?pwd=wf40) (access code: wf40)
 
 - To train on **Sany-Mixing Station dataset**, run
 ```
