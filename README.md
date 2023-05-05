@@ -68,7 +68,7 @@ conda install pytorch-scatter -c pyg
 # Step2.Data Download and Preparation
 We have organized these three datasets. To evaluate/train point cloud, you will need to **download** the required datasets.
 
-- Sany (ours) - [Baidu Drive](https://pan.baidu.com/s/10F5ezH4LgT9glGZ_A16BuQ?pwd=vtle)(access code: vtle)
+- Sany (ours) - [Baidu Drive](https://pan.baidu.com/s/10F5ezH4LgT9glGZ_A16BuQ)(Acquiring copyright)
 ```
 ./
 ├── 
